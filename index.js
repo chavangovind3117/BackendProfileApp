@@ -24,7 +24,7 @@ const users = [
         password: "54321",
         EmployeeName: "Jane Smith",
         Designation: "Software Engineer",
-        username: "jane.smith@email.com"
+        username: "pawans751983@gmail.com"
     },
     {
         EmployeeID: "1004",
@@ -90,6 +90,13 @@ const salaryData = {
         },
     },
     '1003': {
+        'Jan, 2025': {
+            Basic: 45000,
+            HRA: 3000,
+            MedicalAllowance: 5000,
+            Conveyance: 600,
+            TotalCTC: 53600,
+        },
         'Jan, 2024': {
             Basic: 25000,
             HRA: 2000,
@@ -105,18 +112,18 @@ const salaryData = {
             TotalCTC: 26600,
         },
         'Apr, 2024': {
-            Basic: 25000,
-            HRA: 3000,
-            MedicalAllowance: 4000,
-            Conveyance: 600,
-            TotalCTC: 32600,
-        },
-        'Mar, 2024': {
-            Basic: 15000,
+            Basic: 35000,
             HRA: 3000,
             MedicalAllowance: 4000,
             Conveyance: 600,
             TotalCTC: 42600,
+        },
+        'Mar, 2024': {
+            Basic: 55000,
+            HRA: 1000,
+            MedicalAllowance: 4000,
+            Conveyance: 600,
+            TotalCTC: 90600,
         },
         'Jun, 2024': {
             Basic: 25000,
@@ -125,6 +132,181 @@ const salaryData = {
             Conveyance: 600,
             TotalCTC: 33600,
         },
+        'Jul, 2024': {
+            Basic: 25000,
+            HRA: 2000,
+            MedicalAllowance: 5000,
+            Conveyance: 600,
+            TotalCTC: 32600,
+        },
+        'Aug, 2024': {
+            Basic: 2000,
+            HRA: 3000,
+            MedicalAllowance: 4000,
+            Conveyance: 600,
+            TotalCTC: 26600,
+        },
+        'Sept, 2024': {
+            Basic: 25000,
+            HRA: 3000,
+            MedicalAllowance: 4000,
+            Conveyance: 600,
+            TotalCTC: 32600,
+        },
+        'Nov, 2024': {
+            Basic: 15000,
+            HRA: 3000,
+            MedicalAllowance: 4000,
+            Conveyance: 600,
+            TotalCTC: 42600,
+        },
+        'Dec, 2024': {
+            Basic: 25000,
+            HRA: 4000,
+            MedicalAllowance: 4000,
+            Conveyance: 600,
+            TotalCTC: 33600,
+        },
+        'Jan, 2023': {
+            Basic: 30000,
+            HRA: 2500,
+            MedicalAllowance: 6000,
+            Conveyance: 800,
+            TotalCTC: 39300
+        },
+        'Feb, 2023': {
+            Basic: 2200,
+            HRA: 3500,
+            MedicalAllowance: 4500,
+            Conveyance: 700,
+            TotalCTC: 30900
+        },
+        'Apr, 2023': {
+            Basic: 40000,
+            HRA: 3500,
+            MedicalAllowance: 5000,
+            Conveyance: 1000,
+            TotalCTC: 49500
+        },
+        'Mar, 2023': {
+            Basic: 60000,
+            HRA: 1500,
+            MedicalAllowance: 4500,
+            Conveyance: 700,
+            TotalCTC: 101700
+        },
+        'Jun, 2023': {
+            Basic: 30000,
+            HRA: 4500,
+            MedicalAllowance: 5000,
+            Conveyance: 800,
+            TotalCTC: 40300
+        },
+        'Jul, 2023': {
+            Basic: 27000,
+            HRA: 2200,
+            MedicalAllowance: 5200,
+            Conveyance: 700,
+            TotalCTC: 35100
+        },
+        'Aug, 2023': {
+            Basic: 2500,
+            HRA: 3200,
+            MedicalAllowance: 4800,
+            Conveyance: 800,
+            TotalCTC: 31800
+        },
+        'Sept, 2023': {
+            Basic: 28000,
+            HRA: 3500,
+            MedicalAllowance: 4500,
+            Conveyance: 900,
+            TotalCTC: 36900
+        },
+        'Nov, 2023': {
+            Basic: 18000,
+            HRA: 3500,
+            MedicalAllowance: 4500,
+            Conveyance: 900,
+            TotalCTC: 51900
+        },
+        'Dec, 2023': {
+            Basic: 32000,
+            HRA: 4500,
+            MedicalAllowance: 5000,
+            Conveyance: 900,
+            TotalCTC: 42400
+        },
+        'Jan, 2022': {
+            Basic: 32000,
+            HRA: 2600,
+            MedicalAllowance: 5500,
+            Conveyance: 750,
+            TotalCTC: 41250
+        },
+        'Feb, 2022': {
+            Basic: 2400,
+            HRA: 3600,
+            MedicalAllowance: 4700,
+            Conveyance: 650,
+            TotalCTC: 31350
+        },
+        'Apr, 2022': {
+            Basic: 38000,
+            HRA: 3400,
+            MedicalAllowance: 5200,
+            Conveyance: 950,
+            TotalCTC: 47550
+        },
+        'Mar, 2022': {
+            Basic: 59000,
+            HRA: 1700,
+            MedicalAllowance: 4400,
+            Conveyance: 850,
+            TotalCTC: 105950
+        },
+        'Jun, 2022': {
+            Basic: 29000,
+            HRA: 4300,
+            MedicalAllowance: 4900,
+            Conveyance: 850,
+            TotalCTC: 39050
+        },
+        'Jul, 2022': {
+            Basic: 26000,
+            HRA: 2100,
+            MedicalAllowance: 5100,
+            Conveyance: 750,
+            TotalCTC: 34950
+        },
+        'Aug, 2022': {
+            Basic: 2300,
+            HRA: 3100,
+            MedicalAllowance: 4600,
+            Conveyance: 850,
+            TotalCTC: 30850
+        },
+        'Sept, 2022': {
+            Basic: 27000,
+            HRA: 3300,
+            MedicalAllowance: 4400,
+            Conveyance: 950,
+            TotalCTC: 35650
+        },
+        'Nov, 2022': {
+            Basic: 17000,
+            HRA: 3400,
+            MedicalAllowance: 4300,
+            Conveyance: 950,
+            TotalCTC: 49550
+        },
+        'Dec, 2022': {
+            Basic: 31000,
+            HRA: 4400,
+            MedicalAllowance: 4800,
+            Conveyance: 950,
+            TotalCTC: 41150
+        }
     },
     '1004': {
         'Jan, 2024': {
@@ -162,6 +344,78 @@ const salaryData = {
             Conveyance: 600,
             TotalCTC: 33600,
         },
+        'Jan, 2023': {
+            Basic: 30000,
+            HRA: 2500,
+            MedicalAllowance: 6000,
+            Conveyance: 800,
+            TotalCTC: 39300
+        },
+        'Feb, 2023': {
+            Basic: 2200,
+            HRA: 3500,
+            MedicalAllowance: 4500,
+            Conveyance: 700,
+            TotalCTC: 30900
+        },
+        'Apr, 2023': {
+            Basic: 40000,
+            HRA: 3500,
+            MedicalAllowance: 5000,
+            Conveyance: 1000,
+            TotalCTC: 49500
+        },
+        'Mar, 2023': {
+            Basic: 60000,
+            HRA: 1500,
+            MedicalAllowance: 4500,
+            Conveyance: 700,
+            TotalCTC: 101700
+        },
+        'Jun, 2023': {
+            Basic: 30000,
+            HRA: 4500,
+            MedicalAllowance: 5000,
+            Conveyance: 800,
+            TotalCTC: 40300
+        },
+        'Jul, 2023': {
+            Basic: 27000,
+            HRA: 2200,
+            MedicalAllowance: 5200,
+            Conveyance: 700,
+            TotalCTC: 35100
+        },
+        'Aug, 2023': {
+            Basic: 2500,
+            HRA: 3200,
+            MedicalAllowance: 4800,
+            Conveyance: 800,
+            TotalCTC: 31800
+        },
+        'Sept, 2023': {
+            Basic: 28000,
+            HRA: 3500,
+            MedicalAllowance: 4500,
+            Conveyance: 900,
+            TotalCTC: 36900
+        },
+        'Nov, 2023': {
+            Basic: 18000,
+            HRA: 3500,
+            MedicalAllowance: 4500,
+            Conveyance: 900,
+            TotalCTC: 51900
+        },
+        'Dec, 2023': {
+            Basic: 32000,
+            HRA: 4500,
+            MedicalAllowance: 5000,
+            Conveyance: 900,
+            TotalCTC: 42400
+        },
+
+
     },
     '1005': {
         'Jan, 2024': {
