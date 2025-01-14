@@ -14,7 +14,7 @@ const pool = mysql.createPool({
     password: process.env.DB_PASS, // MySQL password
     database: process.env.DB_NAME,    // MySQL database name
     port: process.env.DB_PORT || 3306,
-    connectTimeout: 40000, // 10 seconds // MySQL port (default is 3306)
+    connectTimeout: 400000, // 10 seconds // MySQL port (default is 3306)
 });
 // const pool = mysql.createPool(process.env.DB_URL);
 
