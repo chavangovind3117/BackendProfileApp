@@ -134,5 +134,5 @@ app.get('/fetch-salary', async (req, res) => {
 // **-- Start the server --**
 
 app.listen(PORT, () => {
-    console.log(`Server running on http://192.168.189.65:${PORT}`);
+    console.log(`Server running on http://localhost:${PORT}`);
 });
